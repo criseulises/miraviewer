@@ -371,7 +371,7 @@ void glfw_onFramebufferSize(GLFWwindow* window, int width, int height)
 // Called by GLFW when the mouse wheel is rotated
 //-----------------------------------------------------------------------------
 void glfw_onMouseScroll(GLFWwindow* window, double deltaX, double deltaY)
-{
+{ 
 	// double fov = fpsCamera.getFOV() + deltaY * ZOOM_SENSITIVITY;
 
 	// fov = glm::clamp(fov, 1.0, 120.0);
